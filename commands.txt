@@ -3,3 +3,5 @@ docker build -t mma44331/threat-api:v1
 docker push mma44331/threat-api:v1
 
 oc login --token=sha256~jHvC_66uWQcPTqBGrWWUABr2KvdiuvtD5u6dP98UkjE --server=https://api.rm2.thpm.p1.openshiftapps.com:6443
+
+oc apply -f .
